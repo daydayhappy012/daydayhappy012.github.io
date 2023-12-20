@@ -33,7 +33,7 @@ function Particle(x, y, speed, angle) {
     particle.originalY = particle.y;
     particle.radius = 1 + Math.random() * 2;
     particle.angle = 0;
-    particle.speed = .05;
+    particle.speed = .07;
     particle.isDead = false;
     particle.color = "white";
     snowParticles.push(particle);
